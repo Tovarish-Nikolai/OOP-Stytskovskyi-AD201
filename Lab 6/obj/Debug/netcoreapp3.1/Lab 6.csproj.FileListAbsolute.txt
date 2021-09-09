@@ -1,0 +1,16 @@
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\bin\Debug\netcoreapp3.1\Lab 6.exe
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\bin\Debug\netcoreapp3.1\Lab 6.deps.json
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\bin\Debug\netcoreapp3.1\Lab 6.runtimeconfig.json
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\bin\Debug\netcoreapp3.1\Lab 6.runtimeconfig.dev.json
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\bin\Debug\netcoreapp3.1\Lab 6.dll
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\bin\Debug\netcoreapp3.1\Lab 6.pdb
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab 6.csproj.AssemblyReference.cache
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab_1.ArrayForm.resources
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab 6.csproj.GenerateResource.cache
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab 6.AssemblyInfoInputs.cache
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab 6.AssemblyInfo.cs
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab 6.csproj.CoreCompileInputs.cache
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab 6.dll
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab 6.pdb
+C:\Users\Student\Downloads\OOP-Stytskovskyi-AD201-master\OOP-Stytskovskyi-AD201-master\Lab 6\obj\Debug\netcoreapp3.1\Lab 6.genruntimeconfig.cache

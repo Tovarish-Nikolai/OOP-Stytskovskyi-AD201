@@ -29,7 +29,7 @@ namespace Lab_1
         {
             int[] intArray = new int[1000];
 
-            int amount = 0, sum = 0, multiplication = 1, average = 1, min = 9999999, max = 0, dumb = 0, lines = 0;
+            int amountGood = 0, amountBad = 0, sum = 0, multiplication = 1, average = 1, min = 9999999, max = 0, dumb = 0, lines = 0;
 
             lines = textBox1.Lines.Length;
 
@@ -41,9 +41,10 @@ namespace Lab_1
                     j++;
                     if (!char.IsDigit(c))
                     {
+                        amountBad++;
                         break;
                     }
-                    else if (j == textBox1.Lines[i].Length) {intArray[amount] = Convert.ToInt32(textBox1.Lines[i]); amount++; }
+                    else if (j == textBox1.Lines[i].Length) {intArray[amountGood] = Convert.ToInt32(textBox1.Lines[i]); amountGood++; }
                 }
             }
 
@@ -51,11 +52,11 @@ namespace Lab_1
             {
                 sum += intArray[i];                                                 //Getting the sum
                 if (intArray[i] != 0) { multiplication *= intArray[i]; }           //Multiplication
-                average = sum/amount;                                             //Average
-                if (min > intArray[i] && i < amount) { min = intArray[i]; }   //min
+                average = sum/amountGood;                                             //Average
+                if (min > intArray[i] && i < amountGood) { min = intArray[i]; }   //min
                 if (max < intArray[i]) { max = intArray[i]; }                 //max
 
-                if (i < amount)
+                if (i < amountGood)
                 {
                     int t = 0;
                     int test = intArray[i];
@@ -68,7 +69,9 @@ namespace Lab_1
                 }
             }
 
-            label11.Text = string.Format("{0,10:####.##}",amount);
+            MessageBox.Show(string.Format("Количество строк,\nне включенных в вычисления: {0}", amountBad));
+
+            label11.Text = string.Format("{0,10:####.##}",amountGood);
             label10.Text = string.Format("{0,10:####.##}",sum);
             label12.Text = string.Format("{0,10:####.##}",multiplication);
             label13.Text = string.Format("{0,10:####.##}",average);
