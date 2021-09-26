@@ -20,11 +20,20 @@ public class Lab3Stytskovskyi {
         
         if (checkEd(fred) == true)
         {
-            System.out.print("true");
+            System.out.println("true");
         }
         
         String nums = "fr3dd13";
         System.out.println(sumNumbers(nums));
+        
+        String block = "aaanndddd";
+        System.out.println(longestBlock(block));
+        
+        String words = "I love cake";
+        separateWords(words);
+        
+        String wordA = "Java", wordB = "Script";
+        System.out.println(combineSymbols(wordA, wordB));
     }
     
     public static boolean checkEd(String s) //Метод 1
@@ -45,5 +54,70 @@ public class Lab3Stytskovskyi {
         
         return sum;
     }
+    
+    public static int longestBlock (String s) //Метод 3
+    {                                        //Ничего сложного, но хотя-бы пришлось немного подумать 
+        int longest = 0, temp = 1;
+        
+        for (int i = 0; i < s.length(); i++)
+        {
+            if (i+1 < s.length() && s.charAt(i + 1) == s.charAt(i))
+            {
+                temp++;
+            }
+            else
+            {
+                if (longest < temp)
+                    longest = temp;
+                temp = 1;
+            }
+        }
+        
+        return longest;
+    }
+    
+    public static void separateWords(String s)  //Метод 4
+    {
+        String word = "";     
+        
+        for (int i = 0; i < s.length(); i++)
+        {
+            if (s.charAt(i) != ' ')
+            {
+                   word += s.charAt(i);
+            }
+            else
+            {
+                System.out.println(word);
+                word = "";
+            }
+            if (i == s.length() - 1)
+            System.out.println(word);
+        }
+    }
+    
+    public static String combineSymbols(String a, String b) //Метод 5
+    {
+        String combined = "";
+        int length;
+        
+        if (a.length() > b.length())
+            length = a.length();
+        else
+            length = b.length();
+        
+        for (int i = 0; i < length; i++)
+        {
+            if (i < a.length())
+                combined += a.charAt(i);
+            if (i < b.length())
+               combined += b.charAt(i);
+        }
+        
+        return combined;
+    }
 }
+
+//Всё довольно просто, не думаю что нужны какие-то коменты
+// но если вдруг нужны - на следующий раз учту
 
