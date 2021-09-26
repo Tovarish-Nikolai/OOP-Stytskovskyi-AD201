@@ -23,17 +23,27 @@ public class Lab3Stytskovskyi {
             System.out.print("true");
         }
         
-        
+        String nums = "fr3dd13";
+        System.out.println(sumNumbers(nums));
     }
     
     public static boolean checkEd(String s) //Метод 1
-    {                                       //Смысла в нём мало, но раз надо - держите
-        if (s.endsWith("ed"))
-            return true;
-        else
-            return false;
+    {                                       //Смысла в нём мало, но раз надо - держите        
+            return s.endsWith("ed");
     }
     
-    
+    public static int sumNumbers(String s)  //Метод 2
+    {                                       //Хотя-бы не просто использует одну встроенную функцию
+        int sum = 0;
+        for (int i = 0; i < s.length(); i++)
+        {
+            if (Character.isDigit(s.charAt(i)))
+            {
+                sum += Character.getNumericValue(s.charAt(i));
+            }
+        }
+        
+        return sum;
+    }
 }
 
