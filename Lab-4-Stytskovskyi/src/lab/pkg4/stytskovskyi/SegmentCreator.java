@@ -14,22 +14,22 @@ public class SegmentCreator
 {    
     public SegmentCreator() 
     {
-       //Scanner sc = new Scanner(System.in);
+       Scanner sc = new Scanner(System.in);
         
-        //int xPoint1, xPoint2, yPoint1, yPoint2;
+       int xPoint1, xPoint2, yPoint1, yPoint2;
         
-        //System.out.println("Enter X of the first point..");
-        //xPoint1 = sc.nextInt();
-        //System.out.println("Enter Y of the first point..");
-       // yPoint1 = sc.nextInt();
-        //System.out.println("Enter X of the second point..");
-        //xPoint2 = sc.nextInt();
-       // System.out.println("Enter Y of the second point..");
-       // yPoint2 = sc.nextInt();
+        System.out.println("Enter X of the first point..");
+        xPoint1 = sc.nextInt();
+        System.out.println("Enter Y of the first point..");
+        yPoint1 = sc.nextInt();
+        System.out.println("Enter X of the second point..");
+        xPoint2 = sc.nextInt();
+        System.out.println("Enter Y of the second point..");
+        yPoint2 = sc.nextInt();
         
         
-        Point p1 = new Point (1, 1);
-        Point p2 = new Point (2, 2);                 
+        Point p1 = new Point (xPoint1, yPoint1);
+        Point p2 = new Point (xPoint2, yPoint2);                 
         
         Segment s1 = new Segment(p1, p2);
         s1.calculateLength();

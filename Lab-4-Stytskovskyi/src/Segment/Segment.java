@@ -4,7 +4,7 @@
  */
 package Segment;
 import Point.Point;
-import lab.pkg4.stytskovskyi.SegmentCreator;
+
 
 /**
  *
@@ -27,5 +27,5 @@ public class Segment //extends SegmentCreator
                 + Math.pow(p2.getY() - p1.getY(), 2) );    
     }
     
-    public double getLength() { return length; }
+    public double getLength() { return (double) Math.round(length * 10000) / 10000; }
 }
