@@ -13,8 +13,19 @@ public class Lab5Stytskovskyi {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // TODO code application logic here
+        
+        Person a = new Student("Mathew", "Callahan", 20, "AL", 189);
+        Person b = new Student("Joey", "Rottham", 19, "AD", 169);
+        
+        Person c = new Lecturer("Alexander", "Boskey", 30, "Programming", 14000);
+        
+        Person[] array = { a, b , c };
+        
+        for (int i = 0; i < array.length; i++)
+            array[i].printInfo();
     }
     
 }

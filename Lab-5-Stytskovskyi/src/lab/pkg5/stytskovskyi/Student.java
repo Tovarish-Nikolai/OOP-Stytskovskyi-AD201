@@ -28,9 +28,9 @@ public class Student extends Person
         + age + "\nНомер студенческого билета: " + number);
     }
     
-    public void setGtoup(String g) { group = g; }
+    final public void setGtoup(String g) { group = g; }
     public String getGroup() { return group; }
     
-    public void setNumber(int n) { number = n; }
+    final public void setNumber(int n) { number = n; }
     public int getNumber() { return number; }
 }
